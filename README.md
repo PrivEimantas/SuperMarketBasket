@@ -14,10 +14,10 @@ Product :- Name, price, unit. The product's names and and prices can be adjusted
 
 Discount :- name, amountToGetDiscount,amount, rule,products=[]. This class means we can dynamically calculate discounts **without** needing to hard-code any values so e.g. 3 for 2 can be calculated as 3 items for the price of 2 OR 3 for the price of £2 by just allocating a 'rule' as 'item' or 'price'. Products means you can add items, so multiple products are needed to satisfy a discount offer, this is an optional argument. This also means that if you want to add a completely different product in the future, simply adjust the parameters and it will work.
 
-TestPricingCalculator - Run test units for items with expected prices.
+TestPricingCalculator - Run test units for items with expected prices to ensure correctness.
 
 4. At the bottom of the file, if you comment out the " unittest.main()" it will stop running unit tests so you can put items in the basket and see the output more clearly, you can do this by putting a hashtag in front of it.
 
-Code is commented so can be read and understood more if needed.
+Code is commented so can be read and understood more if needed. One limitation is that for multiple products, it calculates an average, in reality this would have to take the most expensive products first and then apply a discount on these first.
 
 Thank you for reading and I hope this is suitable! :)
