@@ -5,7 +5,7 @@
 
 
 1. Simply run the python file, I developed in PyCharm so you can just right click and run OR run "python CSE_Exercise.py" in a terminal.
-2. The basket is based on "Item:Weight" so it is the name of an item followed by how much it weighs.
+2. The basket is based on "Item:Weight" so it is the name of an item followed by how much it weighs in kg.
 3. This has been made using Classes for easy future modification (PricingCalculator, Product, Discount, TestPricingCalculator(unittest.TestCase) ).
 
 The first class will calculate the subtotal based on the Products and then discounts based on Discount class, it is designed so that even if prices are changed or discounts, this will be dynamic and still run as expected with the correct output, allowing for easy modification.
