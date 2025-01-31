@@ -16,7 +16,7 @@ Discount :- name, amountToGetDiscount,amount, rule,products=[]. This class means
 
 TestPricingCalculator - Run test units for items with expected prices.
 
-3. At the bottom of the file, if you comment out the " unittest.main()" it will stop running unit tests so you can put items in the basket and see the output more clearly, you can do this by putting a hashtag in front of it.
+4. At the bottom of the file, if you comment out the " unittest.main()" it will stop running unit tests so you can put items in the basket and see the output more clearly, you can do this by putting a hashtag in front of it.
 
 Code is commented so can be read and understood more if needed.
 
